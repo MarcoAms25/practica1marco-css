@@ -1,0 +1,109 @@
+header{
+   
+    align-items: ;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+
+.logo{
+   display: flex;
+   align-items: center;
+    height:65px;
+    border-top: 2px solid hsl(0, 6%, 85%);
+    border-bottom: 2px solid hsl(0, 6%, 85%);
+    
+    
+ 
+
+  
+}
+
+#logo1{
+    height: 37px;
+    
+    margin-left: 115px;
+    margin-bottom: 2px;
+   
+   
+}
+    
+.cont-principal{
+    border: 2px solid red;
+}
+
+.cont-secundario{
+    border: 2px solid rgb(52, 237, 45);
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+#fondo{
+    
+    background-repeat: repeat;
+}
+
+.cont-fondo{
+    background-image: url(imagenes/paisaje.jpg);
+    text-align: center;
+   
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+div{
+
+}
+
+#gob{
+    padding-right: 114px;
+
+}
+
+
+.menu{
+ text-align: left;
+  margin-top: 10px;
+  margin-left: 26px;
+  padding: 4px;
+  
+    
+
+    height: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(50, 49, 49);
+    text-decoration: none
+    
+}
+
+.contenedor *{
+    border: 2px solid red;
+}
+
+.contenedor{
+    display: grid;
+    
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+}
+
+.aprende{
+
+}
+
+
+
+
+
+border-bottom: 2px solid rgb(141, 139, 139);
