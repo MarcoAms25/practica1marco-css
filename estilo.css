@@ -1,6 +1,4 @@
 header{
-   
-    align-items: ;
     
 }
 
@@ -15,11 +13,8 @@ body{
     height:65px;
     border-top: 2px solid hsl(0, 6%, 85%);
     border-bottom: 2px solid hsl(0, 6%, 85%);
+    padding: 0 380px;
     
-    
- 
-
-  
 }
 
 #logo1{
@@ -51,7 +46,7 @@ nav{
 }
 
 .cont-fondo{
-    background-image: url(imagenes/paisaje.jpg);
+  
     text-align: center;
    
     color: white;
@@ -89,21 +84,48 @@ div{
 
 .contenedor *{
     border: 2px solid red;
+    font-family: arial;
 }
 
 .contenedor{
     display: grid;
-    
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    color: white;
+    grid-template-columns: 202px 267px 281px;
+    grid-template-rows: 55px 45px 120px 45px;
+    padding: 50px 380px;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aprende{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*font-size: 25px;*/
+}
 
+.en{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.escuelas{
+    font-size: 45px;
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+.codigo{
+    font-size: 45px;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.cdmx{
+    grid-column: 3;
+    grid-row: 4;
 }
 
 
 
-
-
-border-bottom: 2px solid rgb(141, 139, 139);
